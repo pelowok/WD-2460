@@ -1,0 +1,104 @@
+
+varPageTitle
+Page Title
+LOGICnow.com
+
+varProductLogo
+Product Logo Image URL
+<img src="http://pages.logicnow.com/rs/356-UVH-403/images/3s - maxfocus-logo.png">
+
+varSecondaryLogo
+Secondary Logo Image URL
+<img src="http://pages.logicnow.com/rs/356-UVH-403/images/3s - maxbackup-logo.png">
+
+varTelNumber
+Telephone Number
+1 (855) 217 7199
+
+varHeroImage
+Hero section overlay image
+<img src="http://pages.logicnow.com/rs/356-UVH-403/images/3s - server1.png">
+
+varStyleOverride
+HTML to override styles
+<style type="text/css">[data-sr] {visibility: hidden;} div#lpeCDiv_7352{position: absolute;min-width: 50px;z-index: 15;min-height: 50px;left: 686px;top: 166px;} .marketoContent {position: relative;} div.lpeCElement.HTML_1 {position: static !important;} #hero{background-image: url(https://ri.logicnow.com/images/Homex800.jpg);} .pointslist-general ul li .icon {width: 155px;height: 105px;margin: 0 auto;background: url("http://pages.logicnow.com/rs/356-UVH-403/images/sampleIcons-general-icons.png") no-repeat 6px 0px;display: block; } ul li.pointtwo .icon {background-position: -152px 0px; } ul li.pointthree .icon {background-position: 6px -105px; } ul li.pointfour .icon {background-position: -152px -105px; }#hero:after {visibility: hidden;</style>
+
+varIntroText
+Introductory text with styling tags
+<h2 class="white">Data Breach Risk Intelligence</h2><br><h4 class="white">Security matters when it’s connected to business results.<br><br class="white">Prioritize data breach risk in the language of the C-suite, dollars.</h4>
+
+varCTAtext
+Hero-section CTA text
+<span class="white">lorem ipsum</span>
+
+varCTAflavorText
+Hero-section CTA footer text with tags
+<p class="white">lorem ipsum sit dolor amet</p>
+
+varCSS1
+stylesheet #1
+<link rel="stylesheet" href="http://pages.logicnow.com/rs/356-UVH-403/images/3s - foundation.css" />
+
+varCSS2
+stylesheet #2
+<link rel="stylesheet" href="http://pages.logicnow.com/rs/356-UVH-403/images/3s - jquery.fancybox.css" type="text/css" media="screen" />
+
+varCSS3
+stylesheet #3
+<script src="http://pages.logicnow.com/rs/356-UVH-403/images/3s - modernizr.js"></script>
+
+varCSS4
+stylesheet #4
+<link rel="stylesheet" href="http://pages.logicnow.com/rs/356-UVH-403/images/3s - styles.css" />
+
+varCSS5
+stylesheet #5
+<link rel="stylesheet" type="text/css" media="screen" href="/css/mktLPSupport.css" />
+
+varIconSectionHeader
+Icon-section text header with tags
+<h3 class="blue">lorem-ipsum-sit-dolor-amet</h3>
+
+var
+description
+lorem-ipsum-sit-dolor-amet
+
+var
+description
+lorem-ipsum-sit-dolor-amet
+
+var
+description
+lorem-ipsum-sit-dolor-amet
+
+var
+description
+lorem-ipsum-sit-dolor-amet
+
+var
+description
+lorem-ipsum-sit-dolor-amet
+
+var
+description
+lorem-ipsum-sit-dolor-amet
+
+var
+description
+lorem-ipsum-sit-dolor-amet
+
+var
+description
+lorem-ipsum-sit-dolor-amet
+
+var
+description
+lorem-ipsum-sit-dolor-amet
+
+var
+description
+lorem-ipsum-sit-dolor-amet
+
+var
+description
+lorem-ipsum-sit-dolor-amet
