@@ -56,9 +56,13 @@
     <meta class="mktoString" id="varCTAflavorText" mktoName="Hero-section CTA footer text with tags" default="" allowHtml="true" />
     <!-- ICON-SECTION-->
     <meta class="mktoString" id="varIconSectionHeader" mktoName="Icon-section text header with tags" default="loremipsum" allowHtml="true" />
+    <meta class="mktoString" id="varIcon1" mktoName="Icon-section icon #1" default="fa-eye" allowHtml="true" />
     <meta class="mktoString" id="varIconText1" mktoName="Icon-section text #1" default="loremipsum" allowHtml="true" />
+    <meta class="mktoString" id="varIcon2" mktoName="Icon-section icon #2" default="fa-area-chart" allowHtml="true" />
     <meta class="mktoString" id="varIconText2" mktoName="Icon-section text #2" default="loremipsum" allowHtml="true" />
+    <meta class="mktoString" id="varIcon3" mktoName="Icon-section icon #3" default="fa-lock" allowHtml="true" />
     <meta class="mktoString" id="varIconText3" mktoName="Icon-section text #3" default="loremipsum" allowHtml="true" />
+    <meta class="mktoString" id="varIcon4" mktoName="Icon-section icon #4" default="fa-plus-circle" allowHtml="true" />
     <meta class="mktoString" id="varIconText4" mktoName="Icon-section text #4" default="loremipsum" allowHtml="true" />
     <!-- FOUR-TABS-SECTION -->
 
@@ -211,6 +215,8 @@
             color: #FFF;
             opacity: 1;
         }
+        ul.tabs.four-tabs li {width: 31%;}
+        .fa-5x{color:#0C7FC2;}
     </style>
 
     ${varStyleOverride}
@@ -271,22 +277,26 @@
         <div class="pointslist-general" data-sr="enter left move 50px over 1s">
             <div class="wrapper">
                 <ul>
-                    <li class="pointone">
-                        <span class="icon"></span>
-                        <h4>${varIconText1}</h4>
-                    </li>
-                    <li class="pointtwo">
-                        <span class="icon"></span>
-                        <h4>${varIconText2}</h4>
-                    </li>
-                    <li class="pointthree">
-                        <span class="icon"></span>
-                        <h4>${varIconText3}</h4>
-                    </li>
-                    <li class="pointfour">
-                        <span class="icon"></span>
-                        <h4>${varIconText4}</h4>
-                    </li>
+                    <li><span><i class="fa ${varIcon1} fa-5x"></i></span><h4>${varIconText1}</h4></li>
+                    <li><span><i class="fa ${varIcon2} fa-5x"></i></span><h4>${varIconText2}</h4></li>
+                    <li><span><i class="fa ${varIcon3} fa-5x"></i></span><h4>${varIconText3}</h4></li>
+                    <li><span><i class="fa ${varIcon4} fa-5x"></i></span><h4>${varIconText4}</h4></li>
+                    <!--<li class="pointone">-->
+                    <!--<span class="icon"></span>-->
+                    <!--<h4>${varIconText1}</h4>-->
+                    <!--</li>-->
+                    <!--<li class="pointtwo">-->
+                    <!--<span class="icon"></span>-->
+                    <!--<h4>${varIconText2}</h4>-->
+                    <!--</li>-->
+                    <!--<li class="pointthree">-->
+                    <!--<span class="icon"></span>-->
+                    <!--<h4>${varIconText3}</h4>-->
+                    <!--</li>-->
+                    <!--<li class="pointfour">-->
+                    <!--<span class="icon"></span>-->
+                    <!--<h4>${varIconText4}</h4>-->
+                    <!--</li>-->
                 </ul>
             </div>
         </div>
@@ -304,9 +314,9 @@
                 <li class="tab-link " data-tab="tab-2">
                     ${varTab3Text}
                 </li>
-                <li class="tab-link " data-tab="tab-3">
-                    ${varTab4Text}
-                </li>
+                <!--<li class="tab-link " data-tab="tab-3">-->
+                <!--${varTab4Text}-->
+                <!--</li>-->
             </ul>
             <div id="tabs-content">
                 <div class="tab-content current" id="tab-0">
@@ -343,18 +353,18 @@
                                 </div>
                             </dd>
 
-                            <dd class="accordion-navigation ">
-                                <a href="#panel-0-2" data-monitor=${varTab1SubMenu3Image}>
-                                    <i class=${varTab1SubMenu3Icon}> </i>
-                                    <h3 class="blue">${varTab1SubMenu3Text}</h3>
-                                </a>
-                                <div id="panel-0-2" class="content  ">
-                                    <div class="inner-content">
-                                        <h4><em>${varTab1SubMenu3Header}</em></h4>
-                                        <p>${varTab1SubMenu3BodyText}</p>
-                                    </div>
-                                </div>
-                            </dd>
+                            <!--<dd class="accordion-navigation ">-->
+                            <!--<a href="#panel-0-2" data-monitor=${varTab1SubMenu3Image}>-->
+                            <!--<i class=${varTab1SubMenu3Icon}> </i>-->
+                            <!--<h3 class="blue">${varTab1SubMenu3Text}</h3>-->
+                            <!--</a>-->
+                            <!--<div id="panel-0-2" class="content  ">-->
+                            <!--<div class="inner-content">-->
+                            <!--<h4><em>${varTab1SubMenu3Header}</em></h4>-->
+                            <!--<p>${varTab1SubMenu3BodyText}</p>-->
+                            <!--</div>-->
+                            <!--</div>-->
+                            <!--</dd>-->
 
                         </dl>
                     </div>
@@ -402,18 +412,18 @@
                                 </div>
                             </dd>
 
-                            <dd class="accordion-navigation ">
-                                <a href="#panel-0-2" data-monitor=${varTab2SubMenu3Image}>
-                                    <i class=${varTab2SubMenu3Icon}> </i>
-                                    <h3 class="blue">${varTab2SubMenu3Text}</h3>
-                                </a>
-                                <div id="panel-0-2" class="content  ">
-                                    <div class="inner-content">
-                                        <h4><em>${varTab2SubMenu3Header}</em></h4>
-                                        <p>${varTab2SubMenu3BodyText}</p>
-                                    </div>
-                                </div>
-                            </dd>
+                            <!--<dd class="accordion-navigation ">-->
+                            <!--<a href="#panel-0-2" data-monitor=${varTab2SubMenu3Image}>-->
+                            <!--<i class=${varTab2SubMenu3Icon}> </i>-->
+                            <!--<h3 class="blue">${varTab2SubMenu3Text}</h3>-->
+                            <!--</a>-->
+                            <!--<div id="panel-0-2" class="content  ">-->
+                            <!--<div class="inner-content">-->
+                            <!--<h4><em>${varTab2SubMenu3Header}</em></h4>-->
+                            <!--<p>${varTab2SubMenu3BodyText}</p>-->
+                            <!--</div>-->
+                            <!--</div>-->
+                            <!--</dd>-->
 
                         </dl>
                     </div>
@@ -461,18 +471,18 @@
                                 </div>
                             </dd>
 
-                            <dd class="accordion-navigation ">
-                                <a href="#panel-0-2" data-monitor=${varTab3SubMenu3Image}>
-                                    <i class=${varTab3SubMenu3Icon}> </i>
-                                    <h3 class="blue">${varTab3SubMenu3Text}</h3>
-                                </a>
-                                <div id="panel-0-2" class="content  ">
-                                    <div class="inner-content">
-                                        <h4><em>${varTab3SubMenu3Header}</em></h4>
-                                        <p>${varTab3SubMenu3BodyText}</p>
-                                    </div>
-                                </div>
-                            </dd>
+                            <!--<dd class="accordion-navigation ">-->
+                            <!--<a href="#panel-0-2" data-monitor=${varTab3SubMenu3Image}>-->
+                            <!--<i class=${varTab3SubMenu3Icon}> </i>-->
+                            <!--<h3 class="blue">${varTab3SubMenu3Text}</h3>-->
+                            <!--</a>-->
+                            <!--<div id="panel-0-2" class="content  ">-->
+                            <!--<div class="inner-content">-->
+                            <!--<h4><em>${varTab3SubMenu3Header}</em></h4>-->
+                            <!--<p>${varTab3SubMenu3BodyText}</p>-->
+                            <!--</div>-->
+                            <!--</div>-->
+                            <!--</dd>-->
 
                         </dl>
                     </div>
@@ -520,18 +530,18 @@
                                 </div>
                             </dd>
 
-                            <dd class="accordion-navigation ">
-                                <a href="#panel-0-2" data-monitor=${varTab4SubMenu3Image}>
-                                    <i class=${varTab4SubMenu3Icon}> </i>
-                                    <h3 class="blue">${varTab4SubMenu3Text}</h3>
-                                </a>
-                                <div id="panel-0-2" class="content  ">
-                                    <div class="inner-content">
-                                        <h4><em>${varTab4SubMenu3Header}</em></h4>
-                                        <p>${varTab4SubMenu3BodyText}</p>
-                                    </div>
-                                </div>
-                            </dd>
+                            <!--<dd class="accordion-navigation ">-->
+                            <!--<a href="#panel-0-2" data-monitor=${varTab4SubMenu3Image}>-->
+                            <!--<i class=${varTab4SubMenu3Icon}> </i>-->
+                            <!--<h3 class="blue">${varTab4SubMenu3Text}</h3>-->
+                            <!--</a>-->
+                            <!--<div id="panel-0-2" class="content  ">-->
+                            <!--<div class="inner-content">-->
+                            <!--<h4><em>${varTab4SubMenu3Header}</em></h4>-->
+                            <!--<p>${varTab4SubMenu3BodyText}</p>-->
+                            <!--</div>-->
+                            <!--</div>-->
+                            <!--</dd>-->
 
                         </dl>
                     </div>
@@ -551,13 +561,22 @@
     </section><section id="stats">
         <div class="medium-12 pad wrap" data-sr="enter bottom move 50px over 1s">
             <div class="large-3" id="stat1">
-                <h2 class="orange"><strong><span class="counter">${varStat1Counter}</span> ${varStat1Label}</strong></h2>
+                <h2 class="orange">
+                    <strong>
+                        <!--<span class="counter">${varStat1Counter}</span>-->
+                        ${varStat1Label}
+                    </strong>
+                </h2>
                 <h4 class="white">${varStat1Text}</h4></div>
             <div class="large-3" id="stat2">
-                <h2 class="orange"><strong><span class="counter">${varStat2Counter}</span> ${varStat2Label}</strong></h2>
+                <h2 class="orange"><strong>
+                    <!--<span class="counter">${varStat2Counter}</span> -->
+                    ${varStat2Label}</strong></h2>
                 <h4 class="white">${varStat2Text}</h4></div>
             <div class="large-3" id="stat3">
-                <h2 class="orange"><strong><span class="counter">${varStat3Counter}</span> ${varStat3Label}</strong></h2>
+                <h2 class="orange"><strong>
+                    <!--<span class="counter">${varStat3Counter}</span> -->
+                    ${varStat3Label}</strong></h2>
                 <h4 class="white">${varStat3Text}</h4></div>
         </div>
     </section>
